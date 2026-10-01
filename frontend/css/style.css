@@ -1,0 +1,15 @@
+:root{--bg:#07070b;--g:rgba(255,255,255,.06);--b:rgba(255,255,255,.12);--a:#8b5cf6;--a2:#22d3ee}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 500px at 80% -10%,#2a1a5e55,transparent),var(--bg);color:#eaeaf2;font:15px/1.5 system-ui,sans-serif;padding-bottom:84px}
+header{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;letter-spacing:.15em;position:sticky;top:0;background:#07070bcc;backdrop-filter:blur(12px);z-index:5}
+main{max-width:900px;margin:auto;padding:0 16px}.page{display:none;animation:f .3s}.page.on{display:block}@keyframes f{from{opacity:0;transform:translateY(8px)}}
+.glass{background:var(--g);border:1px solid var(--b);border-radius:18px;padding:14px;margin:12px 0;backdrop-filter:blur(14px)}
+.drop{display:block;border:2px dashed var(--b);border-radius:22px;padding:28px;text-align:center;cursor:pointer;background:var(--g)}
+.drop small{display:block;opacity:.6}.drop img{max-width:100%;max-height:300px;border-radius:14px;margin-top:10px}
+.row{display:flex;flex-wrap:wrap;gap:12px}select,textarea{background:#14141c;color:#fff;border:1px solid var(--b);border-radius:10px;padding:8px}textarea{width:100%;min-height:130px;font-size:13px}
+button{background:var(--g);color:#fff;border:1px solid var(--b);border-radius:14px;padding:12px 16px;font-size:15px;min-height:46px}
+.big{width:100%;background:linear-gradient(135deg,var(--a),var(--a2));border:0;font-weight:700;margin:8px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}.card img{width:100%;border-radius:12px;aspect-ratio:1;object-fit:cover}
+.pill{font-size:11px;padding:3px 10px;border-radius:99px;border:1px solid var(--b)}.muted{opacity:.6}.warn{color:#fbbf24}.okc{color:#4ade80}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#0d0d14ee;backdrop-filter:blur(14px);border-top:1px solid var(--b)}nav a{flex:1;text-align:center;padding:18px 0;opacity:.6}nav a.on{opacity:1;color:var(--a2)}
+#toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;gap:6px;z-index:9}#toast div{background:#1b1b26;border:1px solid var(--b);padding:10px 16px;border-radius:12px}
+video{width:100%;border-radius:12px;margin-top:8px}.tag{display:inline-block;background:var(--g);padding:2px 8px;border-radius:8px;margin:2px;font-size:12px}pre{white-space:pre-wrap}

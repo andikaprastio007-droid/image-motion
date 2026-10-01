@@ -1,0 +1,38 @@
+{
+  "subject": "main subject of the original image (identity preserved)",
+  "environment": "scene as shown in the source image",
+  "foreground": "closest elements, keep stable",
+  "midground": "primary subject area",
+  "background": "distant elements, candidates for gentle drift",
+  "lighting": "bright high-key lighting, neutral color temperature",
+  "colors": [
+    "#fefefe",
+    "#817579",
+    "#ffffff",
+    "#fffeff",
+    "#fefeff"
+  ],
+  "composition": "square 1254x1254",
+  "camera_perspective": "as in source image",
+  "depth": "moderate depth",
+  "motion_candidates": [
+    "slow camera push-in",
+    "background drift",
+    "light shimmer",
+    "airborne particles"
+  ],
+  "static_elements": [
+    "main subject geometry",
+    "text and logos",
+    "faces",
+    "architecture lines"
+  ],
+  "risk_elements": [
+    "fine details may flicker",
+    "hands/faces may deform under motion"
+  ],
+  "orientation": "square",
+  "width": 1254,
+  "height": 1254,
+  "source": "local-fallback (no AI vision; edit fields in Prompt Lab for better prompts)"
+}
